@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="afbeeldingen/favicon.ico" type="image/gif" sizes="16x16">
+</head>
+
+
+<body>
+    <img src="afbeeldingen/qouteAangepast.png" alt="quote" width="1500">
+    <ul>
+        <li><a href="index.html">startpagina</a></li>
+        <li><a href="curriculumvitae.html">Curiculum vitae</a></li>
+        <li><a href="hobby's-interesses.html">Hobby's - interesses</a></li>
+        <li><a href="werkervaring.html">Werkervaring</a></li>
+        <li><a href="contact.html">contact</a></li>
+
+    </ul>
+    <form action="verzenden.php" method="post">
+        <div>
+            <label for="naam">Naam: 
+                <input type="text" id="naam" name="naam" required>
+            </label>
+        </div>
+        <div>
+            <label for="email"> E-mail:
+                <input type="email" id="email" name="email" required>
+
+            </label>
+        </div>
+
+        <div>Geslacht:
+            <label for="male">Man
+                <input type="radio" id="male" name="gender" value="Man"/>
+    
+            </label>
+            <label for="female">Vrouw
+                <input type="radio" id="female" name="gender" value="Vrouw"/>
+    
+            </label>
+            <label for="other">Anders
+                <input type="radio" id="other" name="gender" value="Anders"/>
+                </label>
+        </div>
+
+        <div>
+            <label for="Vraag"> Uw Vraag:
+                <textarea name="Vraag" id="Vraag" rows="10"></textarea>
+            </label>
+        </div>
+        <div>
+            <input type="Submit" value="Indienen" />
+        </div>
+
+    </form>
+    <h2>CONTACT</h2>
+    <p>Guy Janssen</p>
+    <p>e-mail: guyappdesign@gmail.com</p>
+    <p>gsm: 0485/184754 (fictief)</p>
+    <p>linked-in: www.linkedin.com/in/guy-janssen-036698165</p>
+
+
+</body>
+
+</html>
