@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
+.nav-seperate {
+    color: rgb(253, 251, 251);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item:hover {
+    color: rgb(126, 122, 122);
+    background-color: rgb(86, 53, 177);
+}
+
+.dark-jumbo {
+    background-color: grey;
+    float: left;
+    height: 266px;
+}
+
+.jumbo-foto {
+    float: right;
+}
+
+.text-format-dark {
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
