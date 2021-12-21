@@ -53,3 +53,11 @@
     background-color: blue;
     color: cornsilk;
 }
+
+.breedte {
+    width: 280px;
+}
+
+.positie {
+    display: block;
+}
