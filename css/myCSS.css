@@ -25,3 +25,31 @@
     color: black;
     font-weight: bold;
 }
+
+.card-padding {
+    padding-top: 10px;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.content-right {
+    float: right;
+    width: 40%
+}
+
+.content-left {
+    float: left;
+    width: 60%;
+}
+
+.mail {
+    padding-right: 10px;
+    margin-right: 19px;
+}
+
+.submit {
+    background-color: blue;
+    color: cornsilk;
+}
