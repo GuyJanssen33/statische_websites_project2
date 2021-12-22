@@ -20,8 +20,7 @@
     float: right;
 }
 
-.text-format-dark {
-    background-color: gray;
+.dark {
     color: black;
     font-weight: bold;
 }
@@ -60,4 +59,19 @@
 
 .positie {
     display: block;
+}
+
+.picture {
+    width: 100%;
+    margin: auto;
+}
+
+.titels {
+    text-align: center;
+}
+
+.table-border {
+    border: firebrick;
+    border-width: 10px;
+    border: dimgray;
 }
